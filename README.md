@@ -150,7 +150,7 @@
 
 
 #### 克隆远程库
-`git clone https://github.com/elva2596/vueBlog.git`
+`git@github.com:Cheese-Yu/my-blog.git`
 
 
 #### 安装前后端依赖

@@ -150,7 +150,7 @@
 
 
 #### 克隆远程库
-`git@github.com:Cheese-Yu/my-blog.git`
+`git clone git@github.com:Cheese-Yu/my-blog.git`
 
 
 #### 安装前后端依赖

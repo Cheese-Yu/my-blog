@@ -26,7 +26,7 @@
     <!-- 表格结束 -->
     <el-row>
         <el-col :span="24">
-          <el-dialog :title="formTitle" v-model="formVisible">
+          <el-dialog :title="formTitle" :visible.sync="formVisible">
             <el-form :model="classifyInf" label-width="120px" ref="classifyInf" :rules="formRule">
                 <el-form-item label="分类名称" prop="classify">
                   <el-input v-model='classifyInf.classify' auto-complete='off'></el-input>

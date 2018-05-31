@@ -15,7 +15,12 @@ function isLoggedIn(){
       if(payload.exp>Date.now()/1000){
         return token;
       }
-  }else{
+      else {
+        localStorage.removeItem('jwt');
+        return false;
+      }
+  }
+  else {
     return false;
   }
 

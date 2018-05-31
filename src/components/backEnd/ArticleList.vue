@@ -14,7 +14,7 @@
               <el-table-column  prop="classify" min-width="150" label="所属分类" ></el-table-column>
               <el-table-column  prop="title" min-width="180" label="文章标题" ></el-table-column>
               <el-table-column  min-width="180" label="操作" >
-                <template scope='scope'>
+                <template scope="scope">
                   <!--这里点击查看进入具体页面但是路径中必须带有admin,这时具体页面里会出现评论的删除选项  -->
                   <el-button size="small" @click="read(scope.row._id)">查看</el-button>
                   <el-button size="small" type='primary' @click="editArticle(scope.row._id)">编辑</el-button>
